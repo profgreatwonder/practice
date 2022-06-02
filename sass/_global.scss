@@ -1,0 +1,48 @@
+// color
+$pryColor: #fbeaff;
+$secColor: #00c0a3;
+$terColor: #ffffff;
+
+// fonts
+@mixin H1Fonts {
+	font-family: "Lucida Sans", "Lucida Grande", sans-serif;
+	font-size: 4.5em;
+}
+
+@mixin H2Fonts {
+	font-family: "Lucida Sans", "Lucida Grande", sans-serif;
+	font-size: 3.19em;
+}
+
+@mixin H3Fonts {
+	font-family: "Lucida Sans", "Lucida Grande", sans-serif;
+	font-size: 2.25em;
+}
+
+@mixin H4Fonts {
+	font-family: "Lucida Sans", "Lucida Grande", sans-serif;
+	font-size: 1.56em;
+}
+
+@mixin PFonts {
+	font-family: "Lucida Sans Regular", sans-serif;
+	font-size: 1em;
+	font-weight: lighter;
+}
+
+// button
+@mixin buttonOnhover {
+	background: $pryColor;
+	// color: ;
+}
+
+// links
+// @mixin activeLink {
+// 	color: $secColor;
+// }
+
+// divider
+@mixin headerDivider {
+	border: 3px solid $secColor;
+	width: 54px;
+}

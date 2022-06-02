@@ -1,0 +1,68 @@
+@use "global" as *;
+
+// GENERAL STYLE
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.backgroundBody {
+	background-color: $pryColor;
+}
+
+h4 {
+	@include H4Fonts;
+}
+
+h3 {
+	@include H3Fonts;
+}
+
+p {
+	@include PFonts;
+}
+
+// NAVBAR
+// logo
+.navbar-brand {
+	letter-spacing: -0.14em;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 2.81em;
+}
+
+.btnContact {
+	background-color: $secColor !important;
+	border: none !important;
+}
+
+// HERO
+.heroIntro {
+	color: $secColor;
+}
+
+.heroTextIntro {
+	line-height: 1.5em;
+}
+
+// social media icons
+.icons {
+	filter: invert(52%) sepia(65%) saturate(3626%) hue-rotate(139deg)
+		brightness(103%) contrast(101%);
+}
+
+// SERVICES
+.hrLine {
+	@include headerDivider;
+}
+
+// MY WORK
+.myWorkLinks {
+	// @include activeLink;
+	color: $secColor !important;
+	// @include headerDivider;
+}
+// .icons {
+// 	padding: 10px;
+// }
